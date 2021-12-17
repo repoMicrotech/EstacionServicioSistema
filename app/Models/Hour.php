@@ -8,6 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Hour extends Model
 {
     use HasFactory;
-	protected $fillable = ['hora_inicio', 'hora_fin'];
-	public $timestamps = false;
 }
